@@ -30,8 +30,8 @@ const localCountryname=(name)=>{
 }
 const showDetails=show=>{
  console.log(show);
- document.getElementById('countryname').innerText=`country name is ${show.name}`;
- document.getElementById('showdetails').innerText=`population is ${show.population}`;
+ document.getElementById('countryname').innerHTML=`<h1>${show.name}</h1>`;
+ document.getElementById('showdetails').innerHTML=`population is: <h2>${show.population}</h2>`;
 
 
 }
